@@ -1,7 +1,7 @@
 # If/Else conditions are used to decide to do something based on something being true or false
 
-x = 10
-y = 50
+x = 50
+y = 40
 
 a = 45
 b = 45
@@ -62,3 +62,11 @@ if c in numbers:
     print(c not in numbers)
 
 # Identity Operators (is, is not) - Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+# is 
+if x is y:
+    print(x is y)
+
+# is not
+if x is not y:
+    print(x is not y)    
